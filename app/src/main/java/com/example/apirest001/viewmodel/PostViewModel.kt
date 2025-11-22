@@ -17,7 +17,9 @@ private val repository = PostRepository()
 
 // Flujo mutable que contenga la lista de post
 
-    private  val _postList = MutableStateFlow<List<Post>> (emptyList())
+  //  private  val _postList = MutableStateFlow<List<Post>> (emptyList())
+
+    internal  val _postList = MutableStateFlow<List<Post>> (emptyList())
 
 // flujo publico
 
